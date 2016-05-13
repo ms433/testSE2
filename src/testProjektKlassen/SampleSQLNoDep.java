@@ -9,6 +9,7 @@ public class SampleSQLNoDep {
    //  Database credentials
    static final String USER = "username";
    static final String PASS = "password";
+   int p = 1;
    
    public static void main(String[] args) {
    Connection conn = null;

@@ -20,6 +20,8 @@ public class SampleLog4j {
 		} catch (Exception e) {
 			log.error(e);
 		}
+		
+		log.trace("test");
 
 	}
 
